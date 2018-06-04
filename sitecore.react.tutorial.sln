@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{A7739E3E-D63C-49DD-AFEB-7763A70FE34D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{C40FF23D-6431-4331-AB41-C86C104843B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{B17AF98D-303B-4D5E-845F-79EC6DF9D778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{81CA68C0-2626-439A-B9E1-EADEBB5194AC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		nuget.config = nuget.config
+		package.json = package.json
+		publishsettings.targets = publishsettings.targets
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{712C2B50-A311-4811-B4FC-21EC6E5F34B1}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\applytransform.targets = scripts\applytransform.targets
+		scripts\pacterahelix.js = scripts\pacterahelix.js
+		scripts\unicorn.js = scripts\unicorn.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{E0095A65-BC75-4A76-838D-8A37296955EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Project.Website", "src\Project\Website\code\Sitecore.Project.Website.csproj", "{E77D1F36-041E-4D1E-A08D-6EE530B38E62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "React", "React", "{8B5771C4-7C33-4E9C-851F-BA5995CD35AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.React", "src\Foundation\React\code\Sitecore.Foundation.React.csproj", "{7F61AA54-2CB5-45BC-920E-0B2F2D4E4F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{B5E90288-E9E4-4493-94B9-E45761972BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siteocre.Feature.Content", "src\Feature\Content\code\Siteocre.Feature.Content.csproj", "{E630B3DE-B2D8-4F84-958E-B3B021929E6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E77D1F36-041E-4D1E-A08D-6EE530B38E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77D1F36-041E-4D1E-A08D-6EE530B38E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77D1F36-041E-4D1E-A08D-6EE530B38E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77D1F36-041E-4D1E-A08D-6EE530B38E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F61AA54-2CB5-45BC-920E-0B2F2D4E4F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F61AA54-2CB5-45BC-920E-0B2F2D4E4F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F61AA54-2CB5-45BC-920E-0B2F2D4E4F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F61AA54-2CB5-45BC-920E-0B2F2D4E4F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E630B3DE-B2D8-4F84-958E-B3B021929E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E630B3DE-B2D8-4F84-958E-B3B021929E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E630B3DE-B2D8-4F84-958E-B3B021929E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E630B3DE-B2D8-4F84-958E-B3B021929E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{712C2B50-A311-4811-B4FC-21EC6E5F34B1} = {81CA68C0-2626-439A-B9E1-EADEBB5194AC}
+		{E0095A65-BC75-4A76-838D-8A37296955EC} = {B17AF98D-303B-4D5E-845F-79EC6DF9D778}
+		{E77D1F36-041E-4D1E-A08D-6EE530B38E62} = {E0095A65-BC75-4A76-838D-8A37296955EC}
+		{8B5771C4-7C33-4E9C-851F-BA5995CD35AF} = {C40FF23D-6431-4331-AB41-C86C104843B7}
+		{7F61AA54-2CB5-45BC-920E-0B2F2D4E4F2D} = {8B5771C4-7C33-4E9C-851F-BA5995CD35AF}
+		{B5E90288-E9E4-4493-94B9-E45761972BF4} = {A7739E3E-D63C-49DD-AFEB-7763A70FE34D}
+		{E630B3DE-B2D8-4F84-958E-B3B021929E6B} = {B5E90288-E9E4-4493-94B9-E45761972BF4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D847B2B2-2470-4007-8D0B-046C119F3071}
+	EndGlobalSection
+EndGlobal
