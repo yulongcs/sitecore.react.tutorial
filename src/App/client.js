@@ -1,0 +1,1 @@
+var Components = require('expose-loader?Components!./views');
