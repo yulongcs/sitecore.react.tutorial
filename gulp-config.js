@@ -1,10 +1,10 @@
-module.exports = function() {
-  var instanceRoot = "C:\\inetpub\\wwwroot\\sc825.react";
+module.exports = function () {
+  var instanceRoot = "C:\\Inetpub\\wwwroot\\WH_Vanke";
   var config = {
     websiteRoot: instanceRoot + "\\Website",
     sitecoreLibraries: instanceRoot + "\\Website\\bin",
     licensePath: instanceRoot + "\\Data\\license.xml",
-    solutionName: "sitecore.react.tutorial",
+    solutionName: "SitecoreHelix",
     buildConfiguration: "Debug",
     buildToolsVersion: 15.0,
     buildMaxCpuCount: 0,
